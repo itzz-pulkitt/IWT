@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="A1.css">
+    <title>Assignment 1</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif  ;
+        }
+    </style>
+</head>
+<body>
+
+<!--------------------------------------------Welcome Area------------------------------------------------------>
+
+    <h1 style="text-align: center;"><u>Welcome to the first Simple Web Page</u></h1><br><hr>
+
+<!------------------------------------------Navigation Section-------------------------------------------------->
+
+    <section id="home">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+    <hr>
+
+<!--------------------------------------------About Section---------------------------------------------------->   
+    
+    <section id="about">
+        <h2>About This Page</h2>
+        
+        <p>This page demonstrates various basic HTML elements.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laboriosam voluptate maxime ea necessitatibus modi voluptates earum soluta iure ab sint molestiae voluptatum odio omnis totam maiores ratione cumque commodi sunt nesciunt eligendi, illo odit! Animi beatae cupiditate deleniti incidunt id minus mollitia alias obcaecati libero dolores quas, suscipit at ut et tempora culpa! Libero unde perspiciatis ipsum mollitia nostrum sit nisi temporibus corporis debitis, impedit laborum repellendus pariatur quos officia adipisci esse obcaecati deleniti hic similique. Similique doloremque possimus quisquam molestias fugit obcaecati quia sapiente esse corrupti illo, neque sit debitis laboriosam delectus maxime aspernatur accusantium, officia iure. Ex sint veritatis officia magni minima numquam cum earum non omnis consequatur odio, aspernatur quibusdam impedit architecto nemo ratione aliquam corrupti asperiores. Eius fuga tenetur rem modi cumque. Minus, quos! Voluptatum distinctio alias sapiente iure? Unde repellendus ipsa, possimus reprehenderit atque maiores, recusandae molestias soluta quo voluptas tempore veritatis labore esse!</p>
+    </section>
+    <hr>
+
+<!---------------------------------------------Service Section------------------------------------------------------>
+
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <ul>
+            <li>Web Development</li>
+            <li>Graphic Design</li>
+            <li>SEO Services</li>
+        </ul>
+        <hr>
+
+    <!-------------------------------------------Feature---------------------------------------->
+
+        <h3>Features</h3>
+
+        <ol>
+            <li>Responsive Design</li>
+            <li>User-Friendly Interface</li>
+            <li>Cross-Browser Compatibility</li>
+        </ol>
+    </section>
+    <hr>
+
+<!--------------------------------------------Gallery Section------------------------------------------------------->
+
+    <section>
+        <h2>Image Gallery</h2>
+
+        <img src="https://static-cse.canva.com/blob/1210661/10SimplewaystoenhanceyourimageFeaturedImage1.jpg" alt="Picture 1" width="200 rem" height="200rem">
+
+        <img src="https://static-cse.canva.com/blob/1210661/10SimplewaystoenhanceyourimageFeaturedImage1.jpg" alt="Picture 2" width="200 rem" height="200rem">
+    </section>
+    <br>
+    <hr>
+
+<!--------------------------------------------Details Section------------------------------------------------------->
+
+    <section>
+        <h2>Customer Contact Details</h2>
+        <table border="1px" style="text-align: center;">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Phone</th>
+            </tr>
+            <tr>
+                <td>Uncle Joseph 1</td>
+                <td>24</td>
+                <td>Indore</td>
+                <td>9191919191</td>
+            </tr>
+            <tr>
+                <td>Uncle Joseph 2</td>
+                <td>34</td>
+                <td>Ujjain</td>
+                <td>9292929292</td>
+            </tr>
+            <tr>
+                <td>Uncle Joseph 3</td>
+                <td>44</td>
+                <td>Dewas</td>
+                <td>9393939393</td>
+            </tr>
+            <tr>
+                <td>Uncle Joseph 4</td>
+                <td>54</td>
+                <td>Bhopal</td>
+                <td>9494949494</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <hr>
+
+<!------------------------------------------Contact-Us Section----------------------------------------------------->
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        Name:  
+        <br><input type="text" placeholder="Enter Your Name"><br>
+        <br>
+
+        Email: 
+        <br><input type="email" placeholder="Enter Your Email"><br>
+        <br>
+
+        Message: 
+        <br><input type="text" placeholder="Enter Your Message"><br>
+        
+        <br><Button>Submit</Button>
+    </section>
+    <hr>
+
+<!--------------------------------------------------End------------------------------------------------------------->
+
+
+</body>
+</html>
