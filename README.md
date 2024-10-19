@@ -1,1 +1,1 @@
-This are my practice project in which college projects are also added. Nothing fancy.
+This is my college project of IWT subject. Nothing fancy.
