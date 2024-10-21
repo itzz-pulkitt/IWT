@@ -1,0 +1,37 @@
+*{
+    width: 800px;
+    height: 80px;
+    margin: 30px auto 0;
+}
+
+h1{
+    text-align: center;
+    height: 40px;
+}
+
+caption{
+    padding-top: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    background: #009dff;
+    height: 30px;
+    color: white;
+}
+
+table{
+    text-align: center;
+    border-color: #009dff ;
+    outline-color: #009dff;
+    border-collapse: collapse;
+}
+
+#heading{
+    background-color: #009dff;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+td{
+    border: 2px solid #009dff;
+}
