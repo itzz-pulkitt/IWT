@@ -1,0 +1,14 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-left: 160px;
+}
+
+.Form{
+    margin: 10px auto 0;
+    padding: 10px 20px 0;
+    width: 1100px;
+    border: 2px solid rgb(182, 182, 182);
+}
