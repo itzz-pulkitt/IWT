@@ -2,13 +2,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    margin-left: 160px;
-}
-
-.Form{
+Form{
     margin: 10px auto 0;
     padding: 10px 20px 0;
-    width: 1100px;
+    width: 900px;
     border: 2px solid rgb(182, 182, 182);
+}
+
+input{
+    width: 900px;
+    height: 30px;
+}
+
+textarea{
+    width: 900px;
+}
+
+select{
+    width: 900px;
+    height: 30px;
+    background: transparent;
+}
+
+button{
+    border: none;
+    background: none;
+    margin-bottom: 30px;
+    font-size: medium;
+    color: rgb(172, 172, 172);
+    cursor: pointer;
 }
