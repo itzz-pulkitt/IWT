@@ -7,55 +7,75 @@
     <title>Student Registration Form A</title>
 </head>
 <body>
-    <h1>Student Registration Form</h1>
-    <div class="Form">
-        First Name:
-        <br><input type="text"><br><br>
+    <form action="/submit" method="post">
         
-        Last Name:
-        <br><input type="text"><br><br>
+        <h1>Student Registration Form</h1>
 
-        Date Of Birth:
-        <br><input type="date"><br><br>
+        <label for="first">First Name:</label>
+        <br><input type="text" id="first"><br><br>
+        
+        <label for="last">Last Name:</label>
+        <br><input type="text" id="last"><br><br>
 
-        Gender:
-        <br><select id="Gender"></select><br><br>
+        <label for="birth">Date of Birth:</label>
+        <br><input type="date" id="birth"><br><br>
 
-        Email:
-        <br><input type="email"><br><br>
+        <label for="gender">Gender:</label>
+        <br><select id="gender" name="gender">
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br><br>
 
-        Phone Number:
-        <br><input type="tel"><br><br>
+        <label for="mail">Email:</label>
+        <br><input type="email" id="mail"><br><br>
 
-        Address:
-        <br><input type="text"><br><br>
+        <label for="phone">Phone Number:</label>
+        <br><input type="tel" id="phone"><br><br>
 
-        City:
-        <br><input type="text"><br><br>
+        <label for="address">Address:</label>
+        <br><textarea id="address" rows="3"></textarea><br><br>
 
-        State:
-        <br><input type="text"><br><br>
+        <label for="city">City:</label>
+        <br><input type="text" id="city"><br><br>
 
-        Zip Code:
-        <br><input type="text"><br><br>
+        <label for="state">State:</label>
+        <br><input type="text" id="state"><br><br>
 
-        Intended Major:
-        <br><input type="text"><br><br>
+        <label for="code">ZIP Code:</label>
+        <br><input type="tel" id="code"><br><br>
 
-        Enrollment Year:
-        <br><select id="Year"></select><br><br>
+        <label for="major">Intended Major:</label>
+        <br><input type="text" id="major"><br><br>
 
-        High School Attended:
-        <br><input type="text"><br><br>
+        <label for="year">Enrollment Year:</label>
+        <br><select id="year" name="year">
+            <option value="" disabled selected>Select enrollment year</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select><br><br>
 
-        Extracurricular Activities:
-        <br><input type="text" placeholder="List any extracurricular activities..."><br><br>
+        <label for="school">High School Attended:</label>
+        <br><input type="text" id="school"><br><br>
 
-        How do you hear about us?
-        <br><select id="hear"></select><br><br>
+        <label for="activity">Extracurricular Activities:</label>
+        <br><textarea id="activity" rows="3" placeholder="List any extracurricular activities..."></textarea><br><br>
+
+        <label for="hear">How do you hear about us:</label>
+        <br><select id="hear" name="hear">
+            <option value="" disabled selected>Select an option</option>
+            <option value="Social Media">Social Media</option>
+            <option value="Friend/Family">Friend/Family</option>
+            <option value="Ads">Advertisment</option>
+            <option value="Other">Other</option>
+        </select><br><br>
 
         <button>Register</button>
 
-    </div>
+    </form>
 </body>
 </html>
