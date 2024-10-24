@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(#153677,#4e085f);
+    background: linear-gradient(135deg,#153677,#4e085f);
     padding: 10px;
 }
 
@@ -69,8 +69,44 @@ ul li{
     padding: 12px 8px 12px 50px;
     user-select: none; /* mtlb copy paste karne ke liye text select nhi hoga*/
     cursor: pointer;
+    position: relative;
 }
 
 ul li::before{
     content:'';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(List-Images/unchecked.png) ;
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through 1.5px #555;
+}
+
+ul li.checked::before{
+    background-image: url(List-Images/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 40px;
+    height: 40;
+    font-size: 20px;
+    color: #555;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+ul li span:hover{
+    background: #edeef0;
 }
