@@ -1,0 +1,58 @@
+*{
+    width: 800px;
+    height: 80px;
+    margin: 0 auto 0;
+}
+
+/*-----------------------------------------------------For Heading--------------------------------------------------------*/
+h1{
+    text-align: center;
+    height: 40px;
+    margin: 30px auto 20px;
+}
+
+
+/*--------------------------------------------Appling To All Div Together-------------------------------------------------*/
+div{
+    display: flex;              /* This create a flex box which help in placing or align contentv*/      
+    justify-content: center;    /* This element help us to align items in center horizonatally */
+    align-items: center;        /* This element help us to align items in center vertically */
+    border-right: 1px solid #009dff;
+}
+
+
+/*---------------------------------------------------For Month Name-------------------------------------------------------*/
+.month-name{
+    margin: 0;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    background: #009dff;
+    border: 2px solid #009dff;
+    border-bottom: none;
+}
+
+
+/*----------------------------------------------------For WeekDays--------------------------------------------------------*/
+.weekday{
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    background: #009dff;
+    border: 2px solid #009dff;
+    border-top: none;
+}
+
+
+/*-------------------------------------------------Appling To All Weeks---------------------------------------------------*/
+.Week{
+    margin: 0;
+    border: 2px solid #009dff;
+    border-bottom: none;
+}
+
+
+/*--------------------------------------------------For Particular Week---------------------------------------------------*/
+.Week-5{
+    border-bottom: 3px solid #009dff;
+}
