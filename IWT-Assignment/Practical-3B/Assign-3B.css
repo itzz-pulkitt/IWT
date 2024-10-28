@@ -1,4 +1,31 @@
 *{
-  margin: 0;
-  padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+Form{
+    margin: 10px auto 0;
+    padding: 10px 20px 0;
+    width: 900px;
+    border: 2px solid rgb(182, 182, 182);
+}
+
+.basic{
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: rgb(182, 182, 182);
+    align-content: center;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.Name{
+    display: flex;
+
+}
+
+#complete{
+    
+    height: 30px;
+}
+
