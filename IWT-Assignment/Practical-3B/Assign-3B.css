@@ -9,6 +9,10 @@ Form{
     border: 2px solid rgb(182, 182, 182);
 }
 
+#Full-Name{
+    font-weight: 500;
+}
+
 .basic{
     height: 50px;
     border-radius: 4px;
@@ -21,11 +25,18 @@ Form{
 
 .Name{
     display: flex;
-
 }
 
 #complete{
-    
+    /* margin-bottom: 9px;
+    margin-top: 15px; */
     height: 30px;
+    width: 220px;
+    margin: 15px 50px 9px;
+}
+
+#name-design{
+    font-size: small;
+    opacity: 0.65;
 }
 
