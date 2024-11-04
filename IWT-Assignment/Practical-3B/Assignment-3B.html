@@ -7,30 +7,85 @@
     <title>Student Registration Form B</title>
 </head>
 <body>
+
+<!--------------------------------------------------Start Of Form---------------------------------------------------------->
     <form action="/submit">
         <h1>STUDENT REGISTRATION FORM</h1>
 
+        <!-----------------------------------------Category Heading-------------------------------------------------->
         <div class="basic">Basic Information</div> 
        
-        <label for="Full-Name" id="Full-Name">Full Name</label>
-        
+        <!-----------------------------------------Name Field Start-------------------------------------------------->
+        <label for="Full-Name">Full Name</label>
+    
+<!-------------------------------------------------Container-1 Start------------------------------------------------------->
         <div class="Name">
+
+            <!--Enter First Name-->
             <div>
-                <input type="text" name="First-Name" id="complete"><br>
-                <label for="First-Name" id="name-design">First Name</label>
+                <input type="text" name="First-Name" id="User-Input-Data"><br>
+                <label for="First-Name" id="Example">First Name</label>
             </div>
             
+            <!--Enter Middle Name-->
             <div>
-                <input type="text" name="Middle-Name" id="complete"><br>
-                <label for="Middle-Name" id="name-design">Middle Name</label>
+                <input type="text" name="Middle-Name" id="User-Input-Data"><br>
+                <label for="Middle-Name" id="Example">Middle Name</label>
             </div>
 
+            <!--Enter Last Name-->
             <div>
-                <input type="text" name="Last-Name" id="complete"><br>
-                <label for="Last-Name" id="name-design">Last Name</label>
+                <input type="text" name="Last-Name" id="User-Input-Data"><br>
+                <label for="Last-Name" id="Example">Last Name</label>
             </div>
+
         </div>
-        
+<!--------------------------------------------------Container-1 End-------------------------------------------------------->
+
+
+<!-------------------------------------------------Container-2 Start------------------------------------------------------->
+        <div class="Num-And-Year">
+
+            <!--------------------------------------Number Field Start------------------------------------------------->
+            <div class="Phone-Number">
+
+                <!--Heading-->
+                <label for="Student-Number">Student Number</label>
+
+                <!--Enter Phone Number-->
+                <div class="Number">
+                <input type="tel" name="Student-Number" id="User-Input-Data"><br>
+                <label for="Student-Number" id="Example">e.g.11183021</label>
+                </div>
+
+            </div>
+            <!---------------------------------------Number Field End-------------------------------------------------->
+
+
+            <!---------------------------------------Year Field Start-------------------------------------------------->
+            <div class="Join-Year">
+
+                <!--Heading-->
+                <label for="Year-Level" id="Input-Box-Heading">Year Level</label>
+
+                <div class="Year">
+                <select name="Year-Level" id="User-Input-Data">
+                    <option value="" disabled selected>Please Select</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                </select><br>
+                <label for="Year-Level" id="Example">for Incoming A.Y. '23-'24</label>
+                </div>
+                
+            </div>
+            <!----------------------------------------Year Field End--------------------------------------------------->
+
+        </div>
+<!--------------------------------------------------Container-2 End-------------------------------------------------------->
+
     </form>
 </body>
 </html>
