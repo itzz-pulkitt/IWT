@@ -1,18 +1,37 @@
+/*-----------------------------------------------------Applied To All-----------------------------------------------------*/
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*--------------------------------------Apply To All Example Under The Input Field Box------------------------------------*/
+#Example{
+    font-size: small;
+    opacity: 0.65;
+}
+
+
+/*---------------------------------General Editting For Input Box (More Specific Edits Down)------------------------------*/
+#User-Input-Data{
+    height: 30px;
+    width: 225px;
+    margin: 15px auto 9px;
+    border: rgb(182, 182, 182) solid 2px;
+    border-radius: 4px;
+}
+
+
+/*-------------------------------------------------Form Tag Editting Start------------------------------------------------*/
 Form{
     margin: 10px auto 0;
     padding: 10px 20px 0;
-    width: 900px;
+    width: 730px;
     border: 2px solid rgb(182, 182, 182);
 }
+/*--------------------------------------------------Form Tag Editting End-------------------------------------------------*/
 
-#Full-Name{
-    font-weight: 500;
-}
 
+/*--------------------------------------------------Category Heading Start------------------------------------------------*/
 .basic{
     height: 50px;
     border-radius: 4px;
@@ -22,21 +41,22 @@ Form{
     font-weight: bold;
     padding-left: 20px;
 }
+/*---------------------------------------------------Category Heading End-------------------------------------------------*/
 
+
+/*----------------------------------------------------Container-1 Start---------------------------------------------------*/
 .Name{
     display: flex;
+    justify-content: center;    /* To align the F-M-L Name blocks in center */
+    gap: 15px;                 /* To add gap or distance between the blocks */
+    margin-bottom: 40px;
 }
+/*-----------------------------------------------------Container-1 End----------------------------------------------------*/
 
-#complete{
-    /* margin-bottom: 9px;
-    margin-top: 15px; */
-    height: 30px;
-    width: 220px;
-    margin: 15px 50px 9px;
+
+/*----------------------------------------------------Container-2 Start---------------------------------------------------*/
+.Num-And-Year{
+    display: inline-flex;
+    justify-content: center;
+    gap: 40px;
 }
-
-#name-design{
-    font-size: small;
-    opacity: 0.65;
-}
-
