@@ -11,13 +11,40 @@
 }
 
 
-/*---------------------------------General Editting For Input Box (More Specific Edits Down)------------------------------*/
-#User-Input-Data{
+/*--------------------------General Editting For Input Box For 3 In A Row (More Specific Edits Down)----------------------*/
+#User-Input-Data-1{
     height: 30px;
-    width: 225px;
+    width: 230px;
     margin: 15px auto 9px;
     border: rgb(182, 182, 182) solid 2px;
     border-radius: 4px;
+}
+
+
+/*--------------------------General Editting For Input Box For 2 In A Row (More Specific Edits Down)----------------------*/
+#User-Input-Data-2{
+    height: 30px;
+    width: 345px;
+    margin: 15px auto 9px;
+    border: rgb(182, 182, 182) solid 2px;
+    border-radius: 4px;
+}
+
+/*--------------------------General Editting For Input Box For 2 In A Row (More Specific Edits Down)----------------------*/
+#User-Input-Data-3{
+    height: 30px;
+    width: 710px;
+    margin: 15px auto 9px;
+    border: rgb(182, 182, 182) solid 2px;
+    border-radius: 4px;
+}
+
+
+/*------------------------------------General Editing of Div Tag Of Different Input Box-----------------------------------*/
+.General{
+    display: flex;
+    justify-content: space-around;    /* To give equal space in between and from left and right side */
+    margin-bottom: 40px;
 }
 
 
@@ -44,19 +71,18 @@ Form{
 /*---------------------------------------------------Category Heading End-------------------------------------------------*/
 
 
-/*----------------------------------------------------Container-1 Start---------------------------------------------------*/
-.Name{
-    display: flex;
-    justify-content: center;    /* To align the F-M-L Name blocks in center */
-    gap: 15px;                 /* To add gap or distance between the blocks */
-    margin-bottom: 40px;
-}
-/*-----------------------------------------------------Container-1 End----------------------------------------------------*/
-
-
 /*----------------------------------------------------Container-2 Start---------------------------------------------------*/
-.Num-And-Year{
-    display: inline-flex;
-    justify-content: center;
-    gap: 40px;
+select#User-Input-Data-2{          /*select#user esa isliye likha taki child class parent class ki property inherit kare*/
+    height: 35px;
+    width: 355px;
+    background-color: transparent;
 }
+/*-----------------------------------------------------Container-2 End----------------------------------------------------*/
+
+
+/*----------------------------------------------------Container-5 Start---------------------------------------------------*/
+select#User-Input-Data-1{  
+    height: 35px;
+    background-color: transparent;
+}
+/*-----------------------------------------------------Container-5 End----------------------------------------------------*/
