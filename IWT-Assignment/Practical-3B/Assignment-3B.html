@@ -14,47 +14,76 @@
 
         <!-----------------------------------------Category Heading-------------------------------------------------->
         <div class="basic">Basic Information</div> 
-       
-        <!-----------------------------------------Name Field Start-------------------------------------------------->
-        <label for="Full-Name">Full Name</label>
-    
+              
+
+
 <!-------------------------------------------------Container-1 Start------------------------------------------------------->
-        <div class="Name">
+        <div class="General">
 
-            <!--Enter First Name-->
+            <!-------------------------------------First Field Start--------------------------------------------------->
             <div>
-                <input type="text" name="First-Name" id="User-Input-Data"><br>
-                <label for="First-Name" id="Example">First Name</label>
-            </div>
-            
-            <!--Enter Middle Name-->
-            <div>
-                <input type="text" name="Middle-Name" id="User-Input-Data"><br>
-                <label for="Middle-Name" id="Example">Middle Name</label>
-            </div>
 
-            <!--Enter Last Name-->
-            <div>
-                <input type="text" name="Last-Name" id="User-Input-Data"><br>
-                <label for="Last-Name" id="Example">Last Name</label>
-            </div>
+                <!--Heading-->
+                <label for="Full-Name">Full Name</label>
 
+                <!--Enter First Name-->
+                <div>
+                    <input type="text" name="First-Name" id="User-Input-Data-1"><br>
+                    <label for="First-Name" id="Example">First Name</label>
+                </div>
+
+            </div>
+            <!--------------------------------------First Field End---------------------------------------------------->
+
+
+            <!-------------------------------------Middle Field Start-------------------------------------------------->
+            <div>
+
+                <!--Heading-->
+                <label for="">&nbsp;</label>      <!--&nbsp; is used to white space which cannot be given using spacebar-->
+
+                <!--Enter Middle Name-->
+                <div>
+                    <input type="text" name="Middle-Name" id="User-Input-Data-1"><br>
+                    <label for="Middle-Name" id="Example">Middle Name</label>
+                </div>
+
+            </div>
+            <!--------------------------------------Middle Field End--------------------------------------------------->
+
+
+            <!--------------------------------------Last Field Start--------------------------------------------------->
+            <div>
+
+                <!--Heading-->
+                <label for="">&nbsp;</label>
+
+                <!--Enter Last Name-->
+                <div>
+                    <input type="text" name="Last-Name" id="User-Input-Data-1"><br>
+                    <label for="Last-Name" id="Example">Last Name</label>
+                </div>
+
+            </div>
+            <!---------------------------------------Last Field End---------------------------------------------------->
+       
         </div>
 <!--------------------------------------------------Container-1 End-------------------------------------------------------->
 
 
-<!-------------------------------------------------Container-2 Start------------------------------------------------------->
-        <div class="Num-And-Year">
 
-            <!--------------------------------------Number Field Start------------------------------------------------->
-            <div class="Phone-Number">
+<!-------------------------------------------------Container-2 Start------------------------------------------------------->
+        <div class="General">
+
+            <!-------------------------------------Number Field Start-------------------------------------------------->
+            <div>
 
                 <!--Heading-->
                 <label for="Student-Number">Student Number</label>
 
                 <!--Enter Phone Number-->
-                <div class="Number">
-                <input type="tel" name="Student-Number" id="User-Input-Data"><br>
+                <div>
+                <input type="tel" name="Student-Number" id="User-Input-Data-2"><br>
                 <label for="Student-Number" id="Example">e.g.11183021</label>
                 </div>
 
@@ -63,28 +92,393 @@
 
 
             <!---------------------------------------Year Field Start-------------------------------------------------->
-            <div class="Join-Year">
+            <div>
 
                 <!--Heading-->
                 <label for="Year-Level" id="Input-Box-Heading">Year Level</label>
 
-                <div class="Year">
-                <select name="Year-Level" id="User-Input-Data">
-                    <option value="" disabled selected>Please Select</option>
-                    <option value="2023">2023</option>
-                    <option value="2024">2024</option>
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
-                    <option value="2027">2027</option>
-                </select><br>
-                <label for="Year-Level" id="Example">for Incoming A.Y. '23-'24</label>
+                <!--Select Joining Year-->
+                <div>
+                    <select name="Year-Level" id="User-Input-Data-2">
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select><br>
+                    <label for="Year-Level" id="Example">for Incoming A.Y. '23-'24</label>
                 </div>
                 
             </div>
             <!----------------------------------------Year Field End--------------------------------------------------->
 
         </div>
-<!--------------------------------------------------Container-2 End-------------------------------------------------------->
+<!---------------------------------------------------Container-2 End------------------------------------------------------->
+
+
+
+<!--------------------------------------------------Container-3 Start------------------------------------------------------>
+        <div class="General">
+
+            <!--------------------------------------Degree Field Start------------------------------------------------->
+            <div>
+
+                <!--Heading-->
+                <label for="Program" id="Input-Box-Heading">Degree Program</label>
+
+                <!--Select Degree Program-->
+                <div>
+                    <select name="Program" id="User-Input-Data-2">
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="B.Tech.">B.Tech.</option>
+                        <option value="BBA">BBA</option>
+                        <option value="BCA">BCA</option>
+                        <option value="Civil">Civil Engineering</option>
+                        <option value="Mechnical">Mechnical Engineering</option>
+                    </select><br>
+                </div>
+                
+            </div>
+            <!---------------------------------------Degree Field End-------------------------------------------------->    
+
+            <!---------------------------------------Email Field Start------------------------------------------------->
+            <div>
+
+                <!--Heading-->
+                <label for="mail">Email</label>
+
+                <!--Enter Email ID-->
+                <div class="Email-ID">
+                <input type="email" name="mail" id="User-Input-Data-2" placeholder=" ex: myname@example.com"><br>
+                </div>
+
+            </div>
+            <!----------------------------------------Email Field End-------------------------------------------------->
+
+        </div>
+<!----------------------------------------------------Container-3 End------------------------------------------------------>
+
+
+
+<!---------------------------------------------------Container-4 Start----------------------------------------------------->
+        <div class="General">
+          
+            <!---------------------------------------Phone Field Start------------------------------------------------->
+            <div>
+                
+                <!--Heading-->
+                <label for="phone">Phone Number</label>
+                
+                <!--Enter Phone Number-->
+                <div>
+                    <input type="tel" name="phone" id="User-Input-Data-2" placeholder=" (000) 000-0000"><br>
+                </div>
+                
+            </div>
+            <!----------------------------------------Phone Field End-------------------------------------------------->
+            
+            <!--------------------------------------Network Field Start------------------------------------------------>
+            <div>
+
+                <!--Heading-->
+                <label for="network" id="Input-Box-Heading">Network Provider</label>
+
+                <!--Select Degree Program-->
+                <div>
+                    <select name="network" id="User-Input-Data-2">
+                        <option value="" disabled selected>Please Select</option>
+                        <option value="a">A</option>
+                        <option value="b">B</option>
+                        <option value="c">C</option>
+                        <option value="d">D</option>
+                        <option value="e">E</option>
+                    </select><br>
+                </div>
+                
+            </div>
+            <!---------------------------------------Network Field End------------------------------------------------->
+        </div>
+<!----------------------------------------------------Container-4 End------------------------------------------------------>
+
+
+
+<!----------------------------------------------------Container-5 Start---------------------------------------------------->
+        <div class="General">
+          
+            <!----------------------------------------Month Field Start------------------------------------------------>
+            <div>
+
+                <!--Heading-->
+                <label for="birth" id="Input-Box-Heading">Birth Date</label>
+
+                <!--Select Month-->
+                <div>
+                    <select name="birth" id="User-Input-Data-1">
+                        <option value="" disabled selected>Please select a month</option>
+                        <option value="jan">January</option>
+                        <option value="feb">February</option>
+                        <option value="mar">March</option>
+                        <option value="apr">April</option>
+                        <option value="aug">May</option>
+                        <option value="jun">June</option>
+                        <option value="jul">July</option>
+                        <option value="aug">August</option>
+                        <option value="sep">September</option>
+                        <option value="oct">October</option>
+                        <option value="nov">November</option>
+                        <option value="dec">December</option>
+                    </select><br>
+                    <label for="birth" id="Example">Month</label>
+                </div>
+                
+            </div>
+            <!-----------------------------------------Month Field End------------------------------------------------->
+            
+            <!-----------------------------------------Day Field Start------------------------------------------------->
+            <div>
+
+                <!--Heading-->
+                <label for="birth" id="Input-Box-Heading">&nbsp;</label>
+
+                <!--Select Month-->
+                <div>
+                    <select name="birth" id="User-Input-Data-1">
+                        <option value="" disabled selected>Please select a day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select><br>
+                    <label for="birth" id="Example">Day</label>
+                </div>
+                
+            </div>
+            <!------------------------------------------Day Field End-------------------------------------------------->
+
+            <!-----------------------------------------Year Field Start------------------------------------------------>
+            <div>
+
+                <!--Heading-->
+                <label for="birth" id="Input-Box-Heading">&nbsp;</label>
+
+                <!--Select Month-->
+                <div>
+                    <select name="birth" id="User-Input-Data-1">
+                        <option value="" disabled selected>Please select a year</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                    </select><br>
+                    <label for="birth" id="Example">Year</label>
+                </div>
+                
+            </div>
+            <!-----------------------------------------Month Field End------------------------------------------------->  
+
+        </div>
+<!----------------------------------------------------Container-5 End------------------------------------------------------>
+
+
+
+<!---------------------------------------------------Container-6 Start----------------------------------------------------->
+
+            <!------------------------------------Address Line Field Start--------------------------------------------->
+            <div class="General" style="margin-bottom: 5px;">
+                <div>
+
+                    <!--Heading-->
+                    <label for="current-add">Present Address</label>
+
+                    <!--Enter Present Address Line 1-->
+                    <div>
+                        <input type="text" name="current-add" id="User-Input-Data-3"><br>
+                        <label for="current-add" id="Example">Street Address</label>
+                    </div>
+
+                    <!--Enter Present Address Line 2-->
+                    <div>
+                        <input type="text" name="current-add" id="User-Input-Data-3"><br>
+                        <label for="current-add" id="Example">Street Address Line 2</label>
+                    </div>
+
+                </div>
+            </div>
+            <!-------------------------------------Address Line Field End---------------------------------------------->
+      
+           
+            <!----------------------------------------City Field Start------------------------------------------------->  
+            <div class="General" style="margin-bottom: 7px;">
+
+                <!--Enter City-->
+                <div>   
+                    <input type="text" name="city" id="User-Input-Data-2"><br>
+                    <label for="city" id="Example">City</label>
+                </div>
+
+                <!--Enter City-->
+                <div>
+                    <input type="text" name="state" id="User-Input-Data-2"><br>
+                    <label for="state" id="Example">State/Province</label>
+                </div>
+
+            </div>
+            <!-----------------------------------------City Field End-------------------------------------------------->  
+        
+            <!---------------------------------------Country Field Start----------------------------------------------->  
+            <div class="General">
+
+                <!--Enter Postal Code-->
+                <div>   
+                    <input type="tel" name="code" id="User-Input-Data-2"><br>
+                    <label for="code" id="Example">Postal/Zip Code</label>
+                </div>
+
+                <!--Enter Country-->
+                <div>
+                    <select name="country" id="User-Input-Data-2">
+                        <option value="" disabled selected>United States</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="IN">India</option>
+                        <option value="CH">China</option>
+                        <option value="AUS">Australia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="BAN">Bangladesh</option>
+                        <option value="CAN">Canda</option>
+                        <option value="ENG">England</option>
+                        <option value="RUS">Russia</option>
+                    </select><br>
+                    <label for="country" id="Example">Country</label>
+                </div>
+
+            </div>
+            <!----------------------------------------Country Field End------------------------------------------------>  
+
+<!----------------------------------------------------Container-6 End------------------------------------------------------>
+
+
+
+<!---------------------------------------------------Container-7 Start----------------------------------------------------->
+
+            <!------------------------------------Address Line Field Start--------------------------------------------->
+            <div class="General" style="margin-bottom: 5px;">
+                <div>
+
+                    <!--Heading-->
+                    <label for="current-add">Premanent Address</label>
+
+                    <!--Enter Present Address Line 1-->
+                    <div>
+                        <input type="text" name="current-add" id="User-Input-Data-3"><br>
+                        <label for="current-add" id="Example">Street Address</label>
+                    </div>
+
+                    <!--Enter Present Address Line 2-->
+                    <div>
+                        <input type="text" name="current-add" id="User-Input-Data-3"><br>
+                        <label for="current-add" id="Example">Street Address Line 2</label>
+                    </div>
+
+                </div>
+            </div>
+            <!-------------------------------------Address Line Field End---------------------------------------------->
+      
+           
+            <!----------------------------------------City Field Start------------------------------------------------->  
+            <div class="General" style="margin-bottom: 7px;">
+
+                <!--Enter City-->
+                <div>   
+                    <input type="text" name="city" id="User-Input-Data-2"><br>
+                    <label for="city" id="Example">City</label>
+                </div>
+
+                <!--Enter City-->
+                <div>
+                    <input type="text" name="state" id="User-Input-Data-2"><br>
+                    <label for="state" id="Example">State/Province</label>
+                </div>
+
+            </div>
+            <!-----------------------------------------City Field End-------------------------------------------------->  
+        
+            <!---------------------------------------Country Field Start----------------------------------------------->  
+            <div class="General">
+
+                <!--Enter Postal Code-->
+                <div>   
+                    <input type="tel" name="code" id="User-Input-Data-2"><br>
+                    <label for="code" id="Example">Postal/Zip Code</label>
+                </div>
+
+                <!--Enter Country-->
+                <div>
+                    <select name="country" id="User-Input-Data-2">
+                        <option value="" disabled selected>United States</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="IN">India</option>
+                        <option value="CH">China</option>
+                        <option value="AUS">Australia</option>
+                        <option value="NZ">New Zealand</option>
+                        <option value="BAN">Bangladesh</option>
+                        <option value="CAN">Canda</option>
+                        <option value="ENG">England</option>
+                        <option value="RUS">Russia</option>
+                    </select><br>
+                    <label for="country" id="Example">Country</label>
+                </div>
+
+            </div>
+            <!----------------------------------------Country Field End------------------------------------------------>  
+
+<!----------------------------------------------------Container-6 End------------------------------------------------------>
 
     </form>
 </body>
